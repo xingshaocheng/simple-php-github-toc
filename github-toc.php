@@ -15,7 +15,7 @@ $lines = explode("\n",$content);
 foreach($lines as $line){
 	$line = trim($line);
 
-	if(strpos($line, "#") === false){
+	if(0 !== strpos($line, "#")){
 		continue;
 	}
 
