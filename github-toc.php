@@ -42,5 +42,5 @@ for($i = 0;$i < $len; $i++){
         $each_content = $each_head[2][$i];
         $anchor = get_anchor($each_content);
         $title = get_title($each_content);
-        echo str_repeat("\t",($level-1)),"* ","[${title}]($url.${anchor})\n";
+        echo str_repeat("\t",($level-1)),"* ","[${title}](${url}${anchor})\n";
 }
