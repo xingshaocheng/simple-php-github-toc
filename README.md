@@ -1,11 +1,19 @@
 # simple-php-github-toc
-a simple script to create github toc
 
-## Usage
+A simple script to create github toc
 
-```
+生成 Github Readme 文件 TOC 目录 的简单脚本
+
+## Usage - 用法
+
+
+```shell
 $ wget https://raw.githubusercontent.com/xingshaocheng/simple-php-github-toc/master/github-toc.php .
 $ php github-toc.php https://github.com/xingshaocheng/architect-awesome/blob/master/README.md
+```
+
+
+```
 
 * [数据结构](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#数据结构)
 	* [队列](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#队列)
